@@ -1,4 +1,4 @@
-import styled, {keyframes } from "styled-components";
+import styled, { keyframes } from 'styled-components';
 
 const load = keyframes`
   0% {
@@ -61,4 +61,4 @@ export const Overlay = styled.div`
   -webkit-animation: ${load} 1.7s infinite ease, ${round} 1.7s infinite ease;
   animation: ${load} 1.7s infinite ease, ${round} 1.7s infinite ease;
 }
-`
+`;
